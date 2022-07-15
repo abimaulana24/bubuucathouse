@@ -1,0 +1,844 @@
+body {
+  background-color: #ffffff;
+  font-family: "Assistant", sans-serif;
+  color: #07284e;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-left: 15px;
+}
+
+#button-keranjang img {
+  margin-top: 10px;
+  margin-right: 8px;
+  max-height: 25px;
+}
+
+#button-keranjang span {
+  margin-top: 5px;
+}
+
+.total-barang {
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-item {
+  margin-top: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #07284e;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #07284e !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0%;
+}
+
+.btn-login {
+  background-color: #07284e;
+  color: #ffffff;
+}
+.btn-login:hover {
+  background-color: #0d3c72;
+  color: #ffffff;
+}
+
+header {
+  padding: 200px 0 98px;
+  margin-top: -70px;
+  background-image: url(../images/kucing/bg-6.jpg);
+  min-height: 768px;
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #0d3c72;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-petshop {
+  background-color: #00c3eb;
+  color: #ffffff;
+}
+header .btn-petshop:hover {
+  background-color: #35ddff;
+  color: #ffffff;
+}
+
+.food-detail {
+  min-height: 417px;
+  background: #eceaea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  border-radius: 55px;
+}
+
+.food-detail img {
+  max-width: 530px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.food-detail h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.food-detail p {
+  color: #006e75;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.food-detail h3 {
+  text-align: justify;
+  color: #000000;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.barang-button .btn-add-cart {
+  margin-bottom: 15px;
+  background-color: #07284e;
+  color: white;
+}
+.barang-button .btn-add-cart:hover {
+  background-color: #00c3eb;
+  color: white;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #ffffff;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #ececec;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular-content .section-popular-petshop .card-petshop {
+  min-height: 447px;
+  background-color: #ddd;
+  color: #ffffff;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-popular-content .section-popular-petshop .gambar-produk {
+  min-height: 269px;
+  max-height: 270px;
+}
+.section-popular-content .section-popular-petshop .nama-barang {
+  font-size: 20px;
+  color: #07284e;
+  margin-top: 300px;
+}
+.section-popular-content .section-popular-petshop .harga-barang {
+  font-size: 20px;
+  color: #07284e;
+}
+.section-popular-content .section-popular-petshop .barang-button .btn-lihat-detail {
+  margin-bottom: 15px;
+  background-color: #00c3eb;
+  color: #ffffff;
+}
+.section-popular-content .section-popular-petshop .barang-button .btn-lihat-detail:hover {
+  background-color: #35ddff;
+  color: #ffffff;
+}
+
+.tentang-kami {
+  background-color: #ececec;
+  border-radius: 73px;
+}
+
+.tentang-kami h1 {
+  color: #07284e;
+}
+
+.tentang-kami p {
+  color: #07284e;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.toko-ps h1 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 70px;
+  text-align: right;
+  color: #07284e;
+}
+
+@media screen and (min-width: 670px) {
+  .toko-ps h1 {
+    font-size: 74px;
+    line-height: 111px;
+  }
+}
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-networks p {
+  font-size: 18px;
+}
+.section-networks img {
+  max-width: 100%;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.58);
+  line-height: 50px;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer hr {
+  border: 0;
+  box-shadow: hotpink;
+}
+
+footer i {
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+}
+
+footer .hidden {
+  display: none;
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.58);
+  font-size: 0.8rem;
+}
+
+footer .text-4 a {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .img-reverse {
+    flex-direction: row-reverse;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer .lg-inline {
+    display: inline;
+  }
+
+  footer .lg-flex {
+    display: flex;
+  }
+}
+.section-login-header {
+  margin-top: -75px;
+}
+.section-login-header .container .images-login-header {
+  margin-left: -125px;
+  background-size: cover;
+}
+.section-login-header .container .login-content {
+  margin-top: -768px;
+}
+.section-login-header .container h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.btn-success {
+  background-color: #07284e;
+  color: #ffffff;
+}
+.btn-success:hover {
+  background-color: #0d3c72;
+  color: #ffffff;
+}
+
+.btn-signup {
+  background-color: #ffffff;
+  color: #07284e;
+}
+.btn-signup:hover {
+  background-color: #07284e;
+  color: #ffffff;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: white;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+}
+.section-details-content .breadcrumb {
+  color: black;
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #13403a;
+}
+
+.card-right {
+  color: #13403a;
+  padding-left: 10px;
+  min-height: 532px;
+  border: 0px;
+}
+
+.section-deskripsi {
+  color: #13403a;
+  border: 50px;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.section-related-product-header {
+  color: #13403a;
+}
+
+.section-related-product-content .section-related-product .card-petshop {
+  min-height: 447px;
+  background-color: #ddd;
+  color: #ffffff;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.section-related-product-content .section-related-product .gambar-terkait {
+  min-height: 269px;
+  max-height: 270px;
+}
+.section-related-product-content .section-related-product .nama-barang {
+  font-size: 20px;
+  color: #07284e;
+  margin-top: 50px;
+  min-height: 70px;
+}
+.section-related-product-content .section-related-product .harga-barang {
+  font-size: 20px;
+  color: #07284e;
+}
+.section-related-product-content .section-related-product .barang-button .btn-lihat-detail {
+  margin-bottom: 15px;
+  background-color: #00c3eb;
+  color: #ffffff;
+}
+.section-related-product-content .section-related-product .barang-button .btn-lihat-detail:hover {
+  background-color: #35ddff;
+  color: #ffffff;
+}
+
+.card-related {
+  min-height: 475px;
+}
+
+.beli-barang-button {
+  margin-top: 320px;
+  position: absolute;
+}
+.beli-barang-button .btn-beli-barang {
+  margin-left: 13px;
+  margin-bottom: 15px;
+  width: 324px;
+  height: 53px;
+  border-radius: 10px;
+  background-color: #07284e;
+  color: white;
+}
+.beli-barang-button .btn-beli-barang:hover {
+  background-color: #35ddff;
+  color: #ffffff;
+}
+
+.section-register-nav {
+  margin-top: 15px;
+  min-height: 40px;
+}
+
+.section-name-daftarsekarang {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.section-register-header .register-content {
+  color: #0d3c72;
+}
+.section-register-header .btn-signup {
+  margin-bottom: 10px;
+}
+
+.section-news-detail {
+  margin-top: 50px;
+}
+.section-news-detail .container .row .card-center-news p {
+  padding: 5px 15px;
+  text-align: justify;
+}
+
+.card-news {
+  background-size: cover;
+}
+.card-news .card-center-news {
+  min-height: 755px;
+}
+.card-news .card-right-news .related-news {
+  background-color: #07284e;
+}
+
+.card-right-news img {
+  max-height: 150px;
+}
+
+.section-checkout-header {
+  min-height: 323px;
+  background: #f3f3f3;
+  margin-top: -70px;
+}
+
+.section-checkout-content {
+  margin-top: -152px;
+  min-height: 768px;
+}
+.section-checkout-content hr {
+  border: 3px solid #07284e;
+  margin-top: 1px;
+}
+.section-checkout-content h2,
+.section-checkout-content h5 {
+  margin-left: 32px;
+}
+.section-checkout-content h2 {
+  margin-top: 15px;
+  margin-bottom: 42px;
+}
+.section-checkout-content .form-group {
+  margin-left: 63px;
+}
+
+.btn-pilih-alamat {
+  margin-left: 32px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  color: #07284e;
+  width: 173px;
+  height: 39px;
+  border-radius: 10px;
+  border: 1px solid #07284e;
+}
+.btn-pilih-alamat:hover {
+  background-color: #07284e;
+  color: #ffffff;
+}
+
+.btn-pilih-barang {
+  margin-left: 32px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  color: #07284e;
+  width: 173px;
+  height: 39px;
+  border-radius: 10px;
+  border: 1px solid #07284e;
+}
+.btn-pilih-barang:hover {
+  background-color: #07284e;
+  color: #ffffff;
+}
+
+#lanjut-pemesanan {
+  float: right;
+}
+
+#lanjut-belanja {
+  float: left;
+}
+
+.update-quantity {
+  text-align: center;
+  width: 100px;
+}
+
+.card-check {
+  width: 352px;
+  border-radius: 10px;
+  background: #fff;
+}
+.card-check h2 {
+  margin-bottom: 4px;
+  margin-top: 85px;
+}
+
+.section-cart-content {
+  margin-top: -152px;
+  min-height: 768px;
+}
+.section-cart-content hr {
+  border: 3px solid #07284e;
+  margin-top: 1px;
+}
+.section-cart-content h2,
+.section-cart-content h5 {
+  margin-left: 32px;
+}
+.section-cart-content h2 {
+  margin-top: 15px;
+  margin-bottom: 42px;
+}
+.section-cart-content .form-group {
+  margin-left: 63px;
+}
+
+.regter {
+  width: 100%;
+}
+
+#bg-page-profile,
+#bg-page-product {
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+#menu-profile,
+#kiri {
+  float: left;
+  background: white;
+}
+#menu-profile ul,
+#kiri ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#menu-profile ul li,
+#kiri ul li {
+  border-bottom: 1px solid #0d6efd;
+}
+#menu-profile ul li a,
+#kiri ul li a {
+  display: block;
+  color: #07284e;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active,
+#kiri ul li a:hover,
+#kiri ul li a.active {
+  background: #07284e;
+  color: white;
+}
+
+#profile-content {
+  float: left;
+  padding: 10px;
+  color: #07284e;
+  background: white;
+}
+
+.table-list tr {
+  border-bottom: 1px solid #07284e;
+}
+
+#frame-button-keranjang {
+  margin-top: 15px;
+}
+
+.table-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-list tr.baris-title {
+  background: #e4e6eb;
+  color: #07284e;
+}
+.table-list th,
+.table-list td {
+  padding: 10px 7px;
+}
+.table-list .kolom-nomor {
+  width: 20px;
+  text-align: center;
+}
+.table-list .kiri {
+  text-align: left;
+}
+.table-list .tengah {
+  text-align: center;
+}
+.table-list .kanan {
+  text-align: right;
+}
+
+.table-ringkas {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-ringkas tr.baris-title {
+  background: #e4e6eb;
+  color: #07284e;
+}
+.table-ringkas th,
+.table-ringkas td {
+  padding: 10px 7px;
+}
+.table-ringkas .kolom-nomor {
+  width: 20px;
+  text-align: center;
+}
+.table-ringkas .kiri {
+  text-align: left;
+}
+.table-ringkas .tengah {
+  text-align: center;
+}
+.table-ringkas .kanan {
+  text-align: right;
+}
+
+#frame-tambah {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.tombol-action {
+  background: #0d6efd;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.tombol-action:hover {
+  background: #00c3eb;
+  color: white;
+}
+
+.form-resep {
+  margin-bottom: 15px;
+  margin-left: 62px;
+}
+.form-resep label {
+  display: block;
+  font-weight: bold;
+}
+.form-resep span {
+  display: block;
+}
+
+.element-form {
+  margin-bottom: 15px;
+}
+.element-form label {
+  display: block;
+  font-weight: bold;
+}
+.element-form span {
+  display: block;
+}
+.element-form span input[type=submit] {
+  background: #0d6efd;
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.element-form span input[type=submit]:hover {
+  background: #00c3eb;
+  color: white;
+}
+.element-form span input[type=text],
+.element-form span textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 75% !important;
+  padding: 5px;
+  box-sizing: border-box;
+  display: block;
+}
+
+#bg-page-product {
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+#section-product #frame-barang ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+#section-product #frame-barang ul li {
+  width: 310px;
+  background: white;
+  padding: 10px 40px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  float: left;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 5px;
+  min-height: 460px;
+}
+
+#section-product #frame-barang ul li .nama-produk p a {
+  font-size: 20px;
+  color: #13403a;
+  text-decoration: none;
+}
+
+#section-product #frame-barang ul li p.harga-product {
+  color: #13403a;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#section-product #frame-barang ul li a img {
+  display: block;
+  max-width: 225px;
+  min-height: 225px;
+  max-height: 226px;
+}
+
+#section-product #frame-barang ul li .nama-produk {
+  padding: 10px 0px;
+  height: 50px;
+}
+
+#section-product #frame-barang ul li .nama-produk p {
+  text-align: left;
+  margin: 5px 0px;
+}
+
+#section-product #frame-barang ul li .nama-produk p a {
+  font-size: 20px;
+  color: #13403a;
+  text-decoration: none;
+}
+
+#section-product #frame-barang ul li .nama-produk span {
+  color: #13403a;
+  display: block;
+  text-align: left;
+}
+
+#frame-barang ul li .button-add-cart {
+  text-align: center;
+}
+#frame-barang ul li .button-add-cart a {
+  background: #0d6efd;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 110px;
+  border-radius: 3px;
+}
+#frame-barang ul li .button-add-cart a:hover {
+  background: rgba(19, 64, 58, 0.5019607843);
+}
+
+.pagination .page-item .page-link {
+  color: #07284e;
+}
+
+.pagination .page-item.active .page-link {
+  color: white;
+}
+
+.search-section {
+  margin-top: -6px;
+  float: left;
+}
+
+.search-section .search-engine {
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.search-section .search-button {
+  background: #0d6efd;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
+}
+
+.section-header-tutorial {
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */
